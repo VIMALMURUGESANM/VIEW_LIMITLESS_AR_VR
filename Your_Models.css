@@ -1,0 +1,78 @@
+/* SliderInputComponent.css */
+.slider-container {
+    text-align: center; 
+    width: 900px;
+    margin: 0 auto;
+    border-radius: 5em;
+    padding: 20px;
+    background:transparent ;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(8px);
+    max-width:500px;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .sliders {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80;
+  }
+  
+  .slider {
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Align elements vertically */
+    align-items: center; /* Align sliders at center */
+    margin-bottom: 20px;
+  }
+  
+  .slider label {
+    font-size: 16px; /* Set font size for slider labels */
+    color: #333; /* Set color for slider labels */
+    margin-bottom: 5px; /* Add spacing between labels and sliders */
+    text-align: center;
+
+}
+  
+  .range-slider {
+    width: 300px;
+    height: 10px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #e0e0e0, #f0f0f0); /* Soft gray gradient background */
+    outline: none;
+    opacity: 0.7;
+    transition: opacity 0.2s, background-color 0.4s; /* Add transition for opacity and background-color */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  
+  .range-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #ffffff; /* White thumb color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add shadow effect */
+    cursor: pointer;
+    transition: background-color 0.4s; /* Add transition for background-color */
+  }
+  
+  .range-slider::-moz-range-thumb {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #ffffff; /* White thumb color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add shadow effect */
+    cursor: pointer;
+    transition: background-color 0.4s; /* Add transition for background-color */
+  }
+  

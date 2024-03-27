@@ -1,0 +1,133 @@
+/* SimpleComponent.css */
+
+/* Global styles */
+body {
+    font-family: 'Roboto', sans-serif; /* Use the Roboto font */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Header styles */
+  .carousel-container {
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 5em;
+    padding: 20px;
+    background:transparent ;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(8px);
+  
+  }
+  
+  .header-text {
+    text-align: center;
+    color:lavender;
+    font-family: 'Roboto', sans-serif; /* Use the Roboto font */
+    line-height: 1.6;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    font-family: 'Roboto', sans-serif; /* Use the Roboto font */
+    line-height: 1.6;
+  }
+  
+  /* Card styles */
+  .card {
+    background-color:transparent;
+    padding: 20px;
+    border-radius: 5em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    border: 2px solid transparent;
+    transition: transform 0.3s ease-in-out;
+    font-family: 'Roboto', sans-serif; /* Use the Roboto font */
+    line-height: 1.6;
+    backdrop-filter: blur(10px);
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Scale up on hover */
+  }
+  
+  .card h3 {
+    margin-bottom: 10px;
+    color: #61dafb;
+  }
+  .ul{
+    background-color: lightgray;
+  }
+  
+  .card p {
+    margin-bottom: 20px;
+    font-style: italic;
+    color:black; /* Lighter text color */
+  }
+  
+  .card img {
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 3px solid cyan;
+    align-self: center;
+    margin: auto;
+  display: block;
+  transition: transform 0.5s ease;
+  }
+  .card:hover img{
+    transform: rotate(2deg);
+  }
+  
+  .card-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .card-button:hover {
+    background-color: pink;
+    color: black;
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  }
+  .custom-list {
+      list-style: none;
+      padding: 2;
+      margin: 20px 0;
+    }
+    
+    .custom-list li {
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      margin: 20px 0;
+      padding: 10px;
+      background-color:transparent;
+    }
+    
+    .text-uppercase {
+      text-transform: uppercase;
+    }
+  
+  /* Video container styles */
+  .video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+  }
+  
+  .video-container video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  

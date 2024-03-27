@@ -1,0 +1,57 @@
+/* Add these styles to your CSS file */
+/* Add this link to your index.css or App.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    text-shadow: 2px;
+    text-transform: uppercase;
+    align-self: center;
+  }
+
+.home-page {
+  font-family: 'Raleway',sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .large-button {
+
+    font-size: 2rem; /* Adjust the font size to make the text larger */
+    padding: 20px 40px; /* Adjust the padding to increase the button size */
+    margin: 10px;
+    background-color:transparent;
+    color: #fff;
+    border: none;
+    border-radius: 30em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .large-button:hover {
+    background-color:black;
+    color: pink;
+    transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  }
+  .video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+  }
+  
+  .video-container video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  

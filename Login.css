@@ -1,0 +1,89 @@
+/* Login.css */
+
+.login-container {
+    position: relative;
+    max-width: 200vh;
+    width: 10vh;
+  }
+  
+  .video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+  }
+  
+  video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .login-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:transparent;
+    padding: 50px 50px 50px 50px;
+    border-radius: 2;
+    text-align: center;
+    width: 600px;
+    backdrop-filter: blur(50px);
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Add transitions for border color and box shadow */
+    color: black;
+  }
+  
+  input:focus {
+    border-color: #ffcc00;
+    box-shadow: 0 0 10px rgba(255, 204, 0, 0.7); /* Change box shadow color on focus */
+  }
+  /* .form-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:transparent; 
+    backdrop-filter: blur(50px); 
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+   */
+  /* button {
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: black;
+    color: blue;
+    transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  }
+   */

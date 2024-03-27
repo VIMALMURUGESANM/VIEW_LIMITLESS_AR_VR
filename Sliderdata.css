@@ -1,0 +1,30 @@
+/* NewSliderData.css */
+
+.new-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    height: 100vh; /* Set height to viewport height to center vertically */
+  }
+  
+  .new-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+  }
+  
+  .new-card h2 {
+    margin-top: 0;
+  }
+  
+  .new-card input[type="file"] {
+    margin-top: 10px;
+  }
+  
+  .new-card button {
+    margin-top: 10px;
+  }
+  
